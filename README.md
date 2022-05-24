@@ -4,10 +4,10 @@ Application that is able to create a TreeSet of properties to create/maintain a 
 ## Description
 A Housing association works with a database that contains a CSV file of all the properties that it manages. 
 Each property has a set of attributes which, for simplification, I have narrowed down to the following four: 
-•	name (first line of the address) 
-•	size (number of bedrooms) 
-•	type (what type of resident it is, whether it is a tenant, leaseholder, or freeholder. A leasehold is the ownership over a property for a limited lease, whereas a freehold means absolute ownership over the property and the land it stands on). 
-•	garage (whether the property has an integral garage or not). 
+-	name (first line of the address) 
+-	size (number of bedrooms) 
+-	type (what type of resident it is, whether it is a tenant, leaseholder, or freeholder. A leasehold is the ownership over a property for a limited lease, whereas a freehold means absolute ownership over the property and the land it stands on). 
+-	garage (whether the property has an integral garage or not). 
 The above attributes are stored in such a way where every row contains one property and its property in the CSV file.  
 For this scenario, a members class Property and an organisation class HousingManagement will be created. 
 
