@@ -1,6 +1,6 @@
 import java.util.SortedSet; // The Collection interface that we will implement
 import java.util.TreeSet; // The specific collection type that will be used
-import java.util.Scanner; // The following imports are for classes that are  related to the reading and writing of text streams from/to the csv file.
+import java.util.Scanner; // The following imports are for stream handler classes that are  related to the reading and writing of text streams from/to the csv file.
 import java.io.BufferedReader; 
 import java.io.BufferedWriter; 
 import java.io.FileWriter;
@@ -115,8 +115,7 @@ public class HousingManagement
         if (!(properties.contains(aProperty))) {
             return false;
         }
-        properties.remove(aProperty);
-        return true;
+        return properties.remove(aProperty);
     }
 
     /**
