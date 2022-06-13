@@ -1,11 +1,13 @@
-import java.util.*;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
+import java.util.SortedSet; // The Collection interface that we will implement
+import java.util.TreeSet; // The specific collection type that will be used
+import java.util.Scanner; // The following imports are for classes that are  related to the reading and writing of text streams from/to the csv file.
+import java.io.BufferedReader; 
+import java.io.BufferedWriter; 
 import java.io.FileWriter;
-import java.io.IOException;
-import java.io.Writer;
+import java.io.IOException; 
+import java.io.Writer; 
 import java.nio.file.*;
-import java.text.*;
+
 
 /**
  * HousingManagement models the information used by the Lambeth Walk Housing Association to maintain their housing register
